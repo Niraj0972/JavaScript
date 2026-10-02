@@ -7,6 +7,13 @@ let x = null
 
 console.table({age, name, isLoggedIn, price, state, x})
 
+console.log(typeof age)
+console.log(typeof name)
+console.log(typeof isLoggedIn)
+console.log(typeof price)
+console.log(typeof state)
+console.log(typeof x)
+
 /*
 Primitives in JavaScript :
 number - 18
