@@ -51,3 +51,16 @@ function - block of code that can be called and executed
 
 
 */
+
+console.log(typeof "Niraj");          // string
+console.log(typeof 25);               // number
+console.log(typeof 25.5);             // number
+console.log(typeof true);             // boolean
+console.log(typeof undefined);        // undefined
+console.log(typeof null);             // object
+console.log(typeof 123n);             // bigint
+console.log(typeof Symbol("id"));     // symbol
+
+console.log(typeof {});               // object
+console.log(typeof []);               // object
+console.log(typeof function() {});    // function
