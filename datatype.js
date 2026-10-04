@@ -64,3 +64,26 @@ console.log(typeof Symbol("id"));     // symbol
 console.log(typeof {});               // object
 console.log(typeof []);               // object
 console.log(typeof function() {});    // function
+
+
+// ******************************************************************************************
+// Stack(primitives) and Heap(non-primitives) memory allocation in JavaScript
+
+let name1 = "Niraj"
+let name2= name1
+
+name2 = "Akshay"
+console.log(name1)
+console.log(name2)
+
+let student1 = {
+    name : "Neha",
+    email :"neha@gmail.com"
+}
+
+let student2 = student1
+
+student2.name = "Sneha"
+
+console.log(student1.name)
+console.log(student2.name)
